@@ -10,9 +10,9 @@ interface VSMProps {
 function VSMComponents({verbal, somatic, material}: VSMProps) {
     return (
         <div className='VSMComponents'>
-            {verbal && <Stat value='V'/>}
-            {somatic && <Stat value='S'/>}
-            {material && <Stat value='M'/>}
+            {verbal && <Stat icon='/assets/icons/VSM/verbal.svg'/>}
+            {somatic && <Stat icon='/assets/icons/VSM/somatic.svg'/>}
+            {material && <Stat icon='/assets/icons/VSM/material.svg'/>}
         </div>
     );
 }

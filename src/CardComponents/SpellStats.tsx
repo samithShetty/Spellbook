@@ -12,11 +12,11 @@ interface SpellStatsProps {
 function SpellStats ({castingTime, duration, range, die, save}: SpellStatsProps) {
     return (
     <div className="SpellStats">
-        <Stat value='1 Action' />
-        <Stat value='150 feet' />
-        <Stat value='Instant' />
-        <Stat value='8d6' />
-        <Stat value='DEX' />
+        <Stat value='1 Action' icon='\assets\icons\SpellStats\casting_time.svg'/>
+        <Stat value='150 feet' icon='\assets\icons\SpellStats\range.svg'/>
+        <Stat value='Instant' icon='\assets\icons\SpellStats\duration.svg'/>
+        <Stat value='8d6' icon='\assets\icons\SpellStats\d20.svg'/>
+        <Stat value='DEX' icon='\assets\icons\SpellStats\save.svg'/>
 
     </div>
     );

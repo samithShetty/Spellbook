@@ -22,7 +22,7 @@ function Card() {
                 {upcastText !== '' && <Upcast text={upcastText}/>}
             </Description>
 
-            <div className='cardFooter'>
+            <div className='CardFooter'>
                 <VSMComponents verbal={true} somatic={true} material={true} />
                 <Level level={3} />
                 <SpellSchool school='Evocation' />

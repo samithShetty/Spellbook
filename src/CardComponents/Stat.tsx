@@ -8,7 +8,7 @@ interface StatProps {
 function Stat ({icon, value}: StatProps) {
     return (
     <div className="Stat">
-        {value}
+        {icon && <img src={icon} className='cardIcon'/>}{value}
     </div>
     );
 }
